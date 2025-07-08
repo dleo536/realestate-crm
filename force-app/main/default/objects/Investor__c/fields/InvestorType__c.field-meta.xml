@@ -1,0 +1,2 @@
+xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<CustomField xmlns=\"http://soap.sforce.com/2006/04/metadata\">\n <fullName>InvestorType__c</fullName>\n <label>Investor Type</label>\n <type>Picklist</type>\n <valueSet>\n <valueSetDefinition>\n <sorted>false</sorted>\n <value><fullName>Institutional</fullName><label>Institutional</label></value>\n <value><fullName>Private</fullName><label>Private</label></value>\n <value><fullName>REIT</fullName><label>REIT</label></value>\n </valueSetDefinition>\n </valueSet>\n</CustomField>
+

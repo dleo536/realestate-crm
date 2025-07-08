@@ -7,6 +7,6 @@
   ],
   "name": "realestate-crm-qa-demo",
   "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sfdcLoginUrl": "https://orgfarm-218b0b0c84-dev-ed.develop.my.salesforce.com",
   "sourceApiVersion": "62.0"
 }

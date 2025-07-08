@@ -13,7 +13,10 @@
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "prettier:verify": "prettier --check \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "postinstall": "husky install",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged", 
+"org:create": "sf org create scratch --definition-file config/project-scratch-def.json --alias qaOrg --set-default --duration-days 1 && sf project deploy start --target-org qaOrg && sf org assign permset --name Admin --target-org qaOrg",
+  "org:open":   "sf org open --target-org qaOrg",
+  "org:delete": "sf org delete scratch --no-prompt --target-org qaOrg"
   },
   "devDependencies": {
     "@lwc/eslint-plugin-lwc": "^1.1.2",

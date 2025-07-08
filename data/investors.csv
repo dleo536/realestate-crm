@@ -1,0 +1,7 @@
+Investor__c:Name,Investor__c:Email__c,Investor__c:Phone__c,Investor__c:InvestorType__c,Investor__c:NetWorth__c
+Acme Capital Partners,contact@acmecap.com,+1-212-555-0100,Institutional,750000000
+Maple Leaf REIT,info@maplereit.ca,+1-416-555-0111,REIT,1200000000
+Nexus Private Equity,hello@nexuspe.com,+1-310-555-0122,Private,350000000
+Rivera Family Office,office@riverafamily.co,+44-20-5555-0133,Private,98000000
+FutureFund Ventures,future@futurefund.io,+1-303-555-0144,Institutional,68000000
+

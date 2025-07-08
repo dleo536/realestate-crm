@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <label>Deal</label>
+  <pluralLabel>Deals</pluralLabel>
+  <sharingModel>ReadWrite</sharingModel>
+  <deploymentStatus>Deployed</deploymentStatus>
+  <enableActivities>true</enableActivities>
+  <nameField>
+    <type>Text</type>
+    <label>Deal Name</label>
+  </nameField>
+
+  <!-- Currency value of the transaction -->
+  <fields>
+    <fullName>Amount__c</fullName>
+    <label>Amount</label>
+    <type>Currency</type>
+    <precision>18</precision>
+    <scale>2</scale>
+  </fields>
+
+  <!-- Deal stage for pipeline tracking -->
+  <fields>
+    <fullName>Stage__c</fullName>
+    <label>Stage</label>
+    <type>Picklist</type>
+    <valueSet>
+      <valueSetDefinition>
+        <sorted>false</sorted>
+        <value>
+          <fullName>Prospecting</fullName>
+          <label>Prospecting</label>
+        </value>
+        <value>
+          <fullName>Underwriting</fullName>
+          <label>Underwriting</label>
+        </value>
+        <value>
+          <fullName>Negotiation</fullName>
+          <label>Negotiation</label>
+        </value>
+        <value>
+          <fullName>Closed_Won</fullName>
+          <label>Closed Won</label>
+        </value>
+        <value>
+          <fullName>Closed_Lost</fullName>
+          <label>Closed Lost</label>
+        </value>
+      </valueSetDefinition>
+    </valueSet>
+  </fields>
+
+  <!-- Expected / actual closing date -->
+  <fields>
+    <fullName>CloseDate__c</fullName>
+    <label>Close Date</label>
+    <type>Date</type>
+  </fields>
+
+  <!-- Relationships -->
+  <fields>
+    <fullName>Property__c</fullName>
+    <label>Property</label>
+    <type>Lookup</type>
+    <referenceTo>Property__c</referenceTo>
+    <relationshipLabel>Deals</relationshipLabel>
+    <relationshipName>Deals</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+  </fields>
+
+  <fields>
+    <fullName>Investor__c</fullName>
+    <label>Primary Investor</label>
+    <type>Lookup</type>
+    <referenceTo>Investor__c</referenceTo>
+    <relationshipLabel>Deals</relationshipLabel>
+    <relationshipName>InvestorDeals</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+  </fields>
+</CustomObject>
+

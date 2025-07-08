@@ -1,0 +1,5 @@
+[
+  { "sobject": "Deal__c",     "files": ["data/deals.csv"] },
+  { "sobject": "Property__c", "files": ["data/properties.csv"] },
+  { "sobject": "Investor__c", "files": ["data/investors.csv"] }
+]

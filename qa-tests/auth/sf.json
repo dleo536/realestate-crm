@@ -1,0 +1,444 @@
+{
+  "cookies": [
+    {
+      "name": "CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce-setup.com",
+      "path": "/",
+      "expires": 1783473993.367104,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "LSKey-c$CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce-setup.com",
+      "path": "/",
+      "expires": 1783473993.368413,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce.com",
+      "path": "/",
+      "expires": 1783473993.612101,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "LSKey-c$CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce.com",
+      "path": "/",
+      "expires": 1783473993.61229,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "BrowserId",
+      "value": "lUR8qFuaEfCx0xdbxsvQ7g",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1783473993.612366,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CookieConsentPolicy",
+      "value": "0:0",
+      "domain": "test.salesforce.com",
+      "path": "/",
+      "expires": 1783473994.323537,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LSKey-c$CookieConsentPolicy",
+      "value": "0:0",
+      "domain": "test.salesforce.com",
+      "path": "/",
+      "expires": 1783473994.323626,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session",
+      "value": "1751937994440",
+      "domain": "test.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "inst",
+      "value": "APP_Sv",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rememberUn",
+      "value": "false",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1757121995.152459,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "com.salesforce.LocaleInfo",
+      "value": "us",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1757121995.152513,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "oinfo",
+      "value": "c3RhdHVzPVRSSUFMJnR5cGU9MyZvaWQ9MDBEU3YwMDAwMDVySG5w",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1757121995.152526,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "disco",
+      "value": "Sv:00DSv000005rHnp:005Sv00000As6aX:6",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "autocomplete",
+      "value": "1",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1757121995.371005,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid",
+      "value": "00DSv000005rHnp!AQEAQK.kVpUquwhKpYnJ8JMLtUFLnUC5Jzg2ALPXCnZuuuV3LW1.DkAhGVYrqreFM9zkNbmDU2TSFPZx4sXey8S6Ocv4wVx5",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid_Client",
+      "value": "v00000As6aXv000005rHnp",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "clientSrc",
+      "value": "73.94.72.252",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "oid",
+      "value": "00DSv000005rHnp",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce.com",
+      "path": "/",
+      "expires": 1783473995.371093,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "gtm_session_start",
+      "value": "1751937995497",
+      "domain": "c.salesforce.com",
+      "path": "/",
+      "expires": 1751939795,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "79eb100099b9a8bf",
+      "value": "3:false:.salesforce.com",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Mon+Jul+07+2025+20%3A26%3A35+GMT-0500+(Central+Daylight+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=74a5f53f-11da-42bd-b857-62e2d16814fb&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fc.salesforce.com%2Flogin-messages%2Fpromos.html",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1783473995,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sfdcConsent",
+      "value": "1%2C3%2C4",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1783473995,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cvtdt",
+      "value": "SFDC%20Network",
+      "domain": ".c.salesforce.com",
+      "path": "/",
+      "expires": 1786497995.929336,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "v0",
+      "value": "SFDC%20Network%7C%5BSalesforce.com%20App%5D",
+      "domain": ".c.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "v20",
+      "value": "Direct%20Landing",
+      "domain": ".c.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sfdc_lv2",
+      "value": "KxG83Huln/7NsBolZzmVhK258IakaKQt6wcG5z0btP2Ef4gMghizPil5ZSSaJ0axs=",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1783474035.960018,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "flow-power-7349-dev-ed.scratch.file.force.com",
+      "path": "/",
+      "expires": 1783474036.725793,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "LSKey-c$CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "flow-power-7349-dev-ed.scratch.file.force.com",
+      "path": "/",
+      "expires": 1783474036.725949,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "BrowserId",
+      "value": "rt37rluaEfCx0xdbxsvQ7g",
+      "domain": ".force.com",
+      "path": "/",
+      "expires": 1783474036.726091,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid",
+      "value": "00DSv000005rHnp!AQEAQPyxHftMluB.nidNnfrerR7zKwSyQSWk0RwxcUugtwDEXFz0gBKPx9Ck1I1Lm5MXwQcDN..bvHrckH5PCimAFprFX0U2",
+      "domain": "flow-power-7349-dev-ed.scratch.file.force.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid_Client",
+      "value": "v00000As6aXv000005rHnp",
+      "domain": "flow-power-7349-dev-ed.scratch.file.force.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "clientSrc",
+      "value": "73.94.72.252",
+      "domain": "flow-power-7349-dev-ed.scratch.file.force.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "inst",
+      "value": "APP_Sv",
+      "domain": ".force.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid",
+      "value": "00DSv000005rHnp!AQEAQLFR7zirV0xlUxeDLB3Rqy_NnKRojRPJc6HlvzDco9flbOoV00afTpyfGXN1kDD2cdTdWnKILFU2tsw5Lw6SfpbF6wGj",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce-setup.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid_Client",
+      "value": "v00000As6aXv000005rHnp",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce-setup.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "clientSrc",
+      "value": "73.94.72.252",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce-setup.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "inst",
+      "value": "APP_Sv",
+      "domain": "flow-power-7349-dev-ed.scratch.my.salesforce-setup.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "flow-power-7349-dev-ed.scratch.lightning.force.com",
+      "path": "/",
+      "expires": 1783474038.273175,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "LSKey-c$CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "flow-power-7349-dev-ed.scratch.lightning.force.com",
+      "path": "/",
+      "expires": 1783474038.273273,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid",
+      "value": "00DSv000005rHnp!AQEAQIodoG3W8o5AOGEod49C2hQeMePJDBu36a2884M0WwvYNCFqOwjuEEbrNWaGwQhrJ9lcDZVDrLyUsl5ZOyfXJ0GPI01d",
+      "domain": "flow-power-7349-dev-ed.scratch.lightning.force.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid_Client",
+      "value": "v00000As6aXv000005rHnp",
+      "domain": "flow-power-7349-dev-ed.scratch.lightning.force.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "clientSrc",
+      "value": "73.94.72.252",
+      "domain": "flow-power-7349-dev-ed.scratch.lightning.force.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://flow-power-7349-dev-ed.scratch.lightning.force.com",
+      "localStorage": [
+        {
+          "name": "$AuraClientService.token$one:one",
+          "value": "eyJub25jZSI6Img5UWlqYV95ZW9rdDBuRGZWUE1XMi1fekk4eWxmVW1YUHhvYTg0VUxSZElcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRFN2MDAwMDAwMDAwMVwiLFwidlwiOlwiMDJHU3YwMDAwMDAwMDFkXCIsXCJhXCI6XCJjYWltYW5zaWduZXJcIn0iLCJjcml0IjpbImlhdCJdLCJpYXQiOjE3NTE5MzgwMzg2ODksImV4cCI6MH0=..J8025x0401-ftJCAHDo0DlHIvgUYGOkz01tFFp1GTYI="
+        }
+      ]
+    },
+    {
+      "origin": "https://c.salesforce.com",
+      "localStorage": [
+        {
+          "name": "webactls",
+          "value": "{\"lastvaliddriver\":\"SFDC Network|[Salesforce.com App]\"}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <label>Commission</label>
+  <pluralLabel>Commissions</pluralLabel>
+  <sharingModel>ControlledByParent</sharingModel>
+  <deploymentStatus>Deployed</deploymentStatus>
+  <enableActivities>true</enableActivities>
+
+  <!-- Auto-number the commissions -->
+  <nameField>
+    <type>AutoNumber</type>
+    <label>Commission #</label>
+    <displayFormat>COM-{00000}</displayFormat>
+  </nameField>
+
+  <!-- Master-detail so deleting the Deal removes its commissions -->
+  <fields>
+    <fullName>Deal__c</fullName>
+    <label>Deal</label>
+    <type>MasterDetail</type>
+    <referenceTo>Deal__c</referenceTo>
+    <relationshipLabel>Commissions</relationshipLabel>
+    <relationshipName>Commissions</relationshipName>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+  </fields>
+
+  <fields>
+    <fullName>Amount__c</fullName>
+    <label>Commission Amount</label>
+    <type>Currency</type>
+    <precision>18</precision>
+    <scale>2</scale>
+  </fields>
+
+  <fields>
+    <fullName>Percentage__c</fullName>
+    <label>Percentage</label>
+    <type>Percent</type>
+    <precision>5</precision>
+    <scale>2</scale>
+  </fields>
+
+  <fields>
+    <fullName>Paid__c</fullName>
+    <label>Paid?</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+  </fields>
+
+  <fields>
+    <fullName>PaidDate__c</fullName>
+    <label>Paid Date</label>
+    <type>Date</type>
+  </fields>
+</CustomObject>
+

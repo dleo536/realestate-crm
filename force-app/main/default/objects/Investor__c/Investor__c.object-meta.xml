@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <label>Investor</label>
+  <pluralLabel>Investors</pluralLabel>
+  <sharingModel>ReadWrite</sharingModel>
+  <deploymentStatus>Deployed</deploymentStatus>
+  <enableActivities>true</enableActivities>
+  <nameField>
+    <type>Text</type>
+    <label>Investor Name</label>
+  </nameField>
+
+  <fields>
+    <fullName>Email__c</fullName>
+    <label>Email</label>
+    <type>Email</type>
+  </fields>
+
+  <fields>
+    <fullName>Phone__c</fullName>
+    <label>Phone</label>
+    <type>Phone</type>
+  </fields>
+
+  <fields>
+    <fullName>InvestorType__c</fullName>
+    <label>Investor Type</label>
+    <type>Picklist</type>
+    <valueSet>
+      <valueSetDefinition>
+        <sorted>false</sorted>
+        <value>
+          <fullName>Institutional</fullName>
+          <label>Institutional</label>
+        </value>
+        <value>
+          <fullName>Private</fullName>
+          <label>Private</label>
+        </value>
+        <value>
+          <fullName>REIT</fullName>
+          <label>REIT</label>
+        </value>
+      </valueSetDefinition>
+    </valueSet>
+  </fields>
+
+  <fields>
+    <fullName>NetWorth__c</fullName>
+    <label>Estimated Net Worth</label>
+    <type>Currency</type>
+    <precision>18</precision>
+    <scale>2</scale>
+  </fields>
+</CustomObject>
+

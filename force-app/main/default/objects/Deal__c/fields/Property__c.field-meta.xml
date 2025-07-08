@@ -1,0 +1,1 @@
+xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<CustomField xmlns=\"http://soap.sforce.com/2006/04/metadata\">\n <fullName>Property__c</fullName>\n <label>Property</label>\n <type>Lookup</type>\n <referenceTo>Property__c</referenceTo>\n <relationshipLabel>Deals</relationshipLabel>\n <relationshipName>Deals</relationshipName>\n</CustomField>

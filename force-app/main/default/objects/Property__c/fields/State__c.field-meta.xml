@@ -1,0 +1,1 @@
+xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<CustomField xmlns=\"http://soap.sforce.com/2006/04/metadata\">\n <fullName>State__c</fullName>\n <label>State</label>\n <type>Text</type>\n <length>80</length>\n</CustomField>
