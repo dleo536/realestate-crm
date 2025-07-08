@@ -1,18 +1,17 @@
-# Salesforce DX Project: Next Steps
+# Real-Estate CRM QA Demo
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Hello!
 
-## How Do You Plan to Deploy Your Changes?
+This is a project for building a scratch saleforce environment for testing purposes.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+I also wanted to take the chance to familiarize myself with Salesforce environment structure and tools like Data Loader, Data Import Wizard, SF CLI, and writing Playwright for some automated functional testing. 
 
-## Configure Your Salesforce DX Project
+Here is a video of me going through the project. The automation goes to the deals section and changes the status of the deal. 
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-## Read All About It
+▶ **Video tour:** [Loom demo](https://www.loom.com/share/b1421aad0e0d41ad8820390c42d0bdbc?sid=c7508969-6871-464f-9be9-78c9d7e14c64)
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+---
+
+
+Thanks!
